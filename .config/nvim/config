@@ -1,0 +1,11 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = true
+	ignorecase = true
+	precomposeunicode = true
+[remote "origin"]
+	url = git@github.com:btj93/nvim-config.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[status]
+	showUntrackedFiles = no
