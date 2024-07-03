@@ -28,3 +28,6 @@ vim.keymap.set({ "i" }, "jk", "<Esc>", { noremap = true, desc = "jk to escape" }
 vim.keymap.set({ "v" }, "v", "<Esc>ggVG", { noremap = true, desc = "Select all" })
 vim.keymap.set({ "v" }, "cc", "<cmd>CodeSnap<cr>", { noremap = true, desc = "Code snap to clipboard" })
 vim.keymap.set({ "v" }, "cs", "<cmd>CodeSnapSave<cr>", { noremap = true, desc = "Code snap to file" })
+
+-- remap dd to diff side by side
+vim.keymap.set({ "n" }, "dd", "<cmd>windo diffthis<cr>", { noremap = true, desc = "Diff side by side" })
