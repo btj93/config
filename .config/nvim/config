@@ -4,8 +4,11 @@
 	bare = true
 	ignorecase = true
 	precomposeunicode = true
+[status]
+	showUntrackedFiles = no
 [remote "origin"]
 	url = git@github.com:btj93/nvim-config.git
 	fetch = +refs/heads/*:refs/remotes/origin/*
-[status]
-	showUntrackedFiles = no
+[branch "master"]
+	remote = origin
+	merge = refs/heads/master
