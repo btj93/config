@@ -30,4 +30,4 @@ vim.keymap.set({ "v" }, "cc", "<cmd>CodeSnap<cr>", { noremap = true, desc = "Cod
 vim.keymap.set({ "v" }, "cs", "<cmd>CodeSnapSave<cr>", { noremap = true, desc = "Code snap to file" })
 
 -- remap dd to diff side by side
-vim.keymap.set({ "n" }, "dd", "<cmd>windo diffthis<cr>", { noremap = true, desc = "Diff side by side" })
+vim.keymap.set({ "n" }, "<leader>dd", "<cmd>windo diffthis<cr>", { noremap = true, desc = "Diff side by side" })
