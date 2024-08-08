@@ -38,6 +38,8 @@ require("flash").setup({
   },
 })
 
+require("quicker").setup()
+
 -- require("copilot").setup({
 --   suggestion = { enabled = true, auto_trigger = true },
 --   filetypes = { ["*"] = true },

@@ -1,2 +1,4 @@
 0000000000000000000000000000000000000000 e6175a42a19b22d04213e9228299646d717f85af Jeffrey Cheung <jeffreycheung@MA226-2.local> 1719910370 +0800	commit (initial): add .config/nvim/
 0000000000000000000000000000000000000000 e6175a42a19b22d04213e9228299646d717f85af Jeffrey Cheung <jeffreycheung@MA226-2.local> 1719978188 +0800
+e6175a42a19b22d04213e9228299646d717f85af a9cc31315e222e3eadc5a2804fd34a2dcda581eb Jeffrey Cheung <jeffreycheung@MA226-2.local> 1719980270 +0800	checkout: moving from main to origin/main
+a9cc31315e222e3eadc5a2804fd34a2dcda581eb fa25d80aeaaf316c53b30e55eeb595736074f681 Jeffrey Cheung <jeffreycheung@MA226-2.local> 1719980582 +0800	commit: feat: change diff to leader dd
