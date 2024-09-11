@@ -39,6 +39,7 @@ require("flash").setup({
 })
 
 require("quicker").setup()
+require("encourage").setup()
 
 -- require("copilot").setup({
 --   suggestion = { enabled = true, auto_trigger = true },
